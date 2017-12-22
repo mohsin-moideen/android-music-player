@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Ola Play</string>
+    <string name="prev_button_text"><![CDATA[<]]></string>
+    <string name="next_button_text"><![CDATA[>]]></string>
+
+    <string name="title_activity_music_player">MusicPlayerActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="application_name">ExoPlayer Demo</string>
+
+    <string name="enable_background_audio">Play in background</string>
+
+    <string name="video">Video</string>
+
+    <string name="audio">Audio</string>
+
+    <string name="text">Text</string>
+
+    <string name="logging">Logging</string>
+
+    <string name="logging_normal">Normal</string>
+
+    <string name="logging_verbose">Verbose</string>
+
+    <string name="retry">Retry</string>
+
+    <string name="off">[off]</string>
+
+    <string name="drm_error_not_supported">Protected content not supported on API levels below 18</string>
+
+    <string name="drm_error_unsupported_scheme">This device does not support the required DRM scheme</string>
+
+    <string name="drm_error_unknown">An unknown DRM error occurred</string>
+    <string name="title_activity_recent">Recent Activity</string>
+    <string name="hackerEarth_api_URL">http://starlord.hackerearth.com/studio</string>
+    <string name="wait_messaage">Please wait...</string>
+    <string name="connection_error_message">Oops! Couldn\'t connect to server. :(</string>
+    <string name="exit_confirm_message">Are you sure you want to exit?</string>
+    <string name="reponse_yes">Yes</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.ola.olaplay.MainActivity"
+    >
+
+    <com.ola.olaplay.custonFields.CustomEditText
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:hint="Search here"
+        android:maxLines="1"
+        android:inputType="text"
+        android:nextFocusLeft="@id/search"
+        android:nextFocusUp="@id/search" />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/search" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/horizontalScrollView">
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLay"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            style="?android:attr/buttonBarStyle"
+            >
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/recent_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/history" />
+
+
+</RelativeLayout>
